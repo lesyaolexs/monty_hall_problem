@@ -1,0 +1,18 @@
+# Editors
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv
+venv/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# test
+.pytest_cache/
