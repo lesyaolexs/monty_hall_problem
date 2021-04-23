@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/play', methods=['POST'])
 def play():
     if not request.json or\
-            not 'choose_option' in request.json and\
+            not 'choose_option' in request.json or\
             not 'attempts' in request.json:
         abort(400)
 
